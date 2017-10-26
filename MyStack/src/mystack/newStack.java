@@ -20,9 +20,9 @@ public class newStack<T> {
      myList = new ArrayList<>();
     }
     
-    public void isEmpty()
+    public boolean isEmpty()
     {
-         System.out.println("The stack is empty");
+         return myList.isEmpty();
     }
     
     public T pop()
