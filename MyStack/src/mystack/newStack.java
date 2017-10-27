@@ -13,7 +13,12 @@ import java.util.ArrayList;
  */
 public class newStack<T> {
     
-    private ArrayList <T> myList = new ArrayList<>();
+    private ArrayList <T> myList;
+
+    public newStack() 
+    {
+        myList = new ArrayList<>();
+    }
     
    
     
