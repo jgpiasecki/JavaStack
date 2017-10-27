@@ -17,19 +17,18 @@ public class MyStack {
      */
     public static void main(String[] args) {
         
-      newStack myStack = new newStack();//calls for the stack
-       
-      ArrayList <String> John = new ArrayList<>();//creats a list of strings 
+      newStack<String> myStack = new newStack<>();//calls for the stack
       
-     John.add("Ethan");//adds items to your list
-     John.add("Israel");
-     John.add("Parker");
+     myStack.push("Ethan");
+     myStack.push("Israel");
+     myStack.push("Parker");
+    
      
-     for(int i=2; i>=0; i--)
-     {
-         myStack.push(John.get(i));//adds the list to the stack
          System.out.println(myStack.pop());//prints the list and pops
-     }
+  System.out.println(myStack.pop());
+  System.out.println(myStack.pop());
+  System.out.println(myStack.pop());
+  
      
      
      
