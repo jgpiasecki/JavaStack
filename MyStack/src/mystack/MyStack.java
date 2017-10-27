@@ -19,15 +19,15 @@ public class MyStack {
         
       newStack<String> myStack = new newStack<>();//calls for the stack
       
-     myStack.push("Ethan");
-     myStack.push("Israel");
-     myStack.push("Parker");
+      myStack.push("Ethan");
+      myStack.push("Israel");
+      myStack.push("Parker");
     
      
          System.out.println(myStack.pop());//prints the list and pops
-  System.out.println(myStack.pop());
-  System.out.println(myStack.pop());
-  System.out.println(myStack.pop());
+         System.out.println(myStack.pop());
+         System.out.println(myStack.pop());
+         System.out.println(myStack.pop());
   
      
      
