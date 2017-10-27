@@ -20,11 +20,7 @@ public class newStack<T> {
      myList = new ArrayList<>();
     }
     
-    public boolean isEmpty()
-    {
-         return myList.isEmpty();
-    }
-    
+   
     public T pop()
     {
         T last;
