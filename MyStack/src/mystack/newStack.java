@@ -13,24 +13,21 @@ import java.util.ArrayList;
  */
 public class newStack<T> {
     
-    private ArrayList <T> myList; 
-    
-    public newStack() 
-    {
-     myList = new ArrayList<>();
-    }
+    private ArrayList <T> myList = new ArrayList<>();
     
    
+    
+     public void push(T x)
+    {
+        myList.add(x);
+    }
     public T pop()
     {
-        T last;
+        T last = myList.get(myList.size()-1);
         last = myList.remove((myList.size()-1));
         return last;
     }
     
-    public void push(T x)
-    {
-        myList.add(x);
-    }
+  
     
 }
