@@ -18,15 +18,26 @@ public class MyStack {
     public static void main(String[] args) {
         
       newStack myStack = new newStack();
-        
-      myStack.push(10);
-      System.out.println(myStack.pop());
-      myStack.push(9);
-      System.out.println(myStack.pop());
-      myStack.push(8);
-      System.out.println(myStack.pop());
+       
+      ArrayList <String> John = new ArrayList<>();
+      
+     John.add("Ethan");
+     John.add("Israel");
+     John.add("Parker");
+     
+     for(int i=2; i<=0; i--)
+     {
+         myStack.push(John.get(i));
+         System.out.println(myStack.pop());
+     }
+     
+     
+     
       
       
+    
+      
+          
       
         
       
