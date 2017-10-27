@@ -13,14 +13,8 @@ import java.util.ArrayList;
  */
 public class newStack<T> {
     
-    private ArrayList <T> myList;
-
-    public newStack() 
-    {
-        myList = new ArrayList<>();
-    }
-    
-   
+    private ArrayList<T> myList = new ArrayList<>();
+ 
     
      public void push(T x)
     {
@@ -28,9 +22,18 @@ public class newStack<T> {
     }
     public T pop()
     {
+        if(myList.size()>0)
+        {
         T last = myList.get(myList.size()-1);
-        last = myList.remove((myList.size()-1));
+        myList.remove((myList.size()-1));
         return last;
+        }
+        else
+        {
+            System.out.println("The Stack is empty.");
+            
+        }
+        return null;
     }
     
   
