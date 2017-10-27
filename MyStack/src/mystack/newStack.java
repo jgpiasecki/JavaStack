@@ -31,9 +31,9 @@ public class newStack<T> {
         else
         {
             System.out.println("The Stack is empty.");
-            
+            return null;
         }
-        return null;
+        
     }
     
   
